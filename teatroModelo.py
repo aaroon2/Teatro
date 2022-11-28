@@ -13,15 +13,10 @@ class TeatroModelo(models.Model):
     duracion = fields.Float(string="Duracion")
     butacas = fields.Integer(string="Butacas")
     sala = fields.Char(string="Sala")
-    tipo = fields.Char(string="Tipo")
-    imagen = fields.Binary(string="Imagen")
     actores = fields.Many2many('teatro.actor', string="Actores")
     director = fields.Many2one('teatro.director', string="Director")
     productor = fields.Many2one('teatro.productor', string="Productor")
     genero = fields.Many2one('teatro.genero', string="Genero")
-    pais = fields.Many2one('teatro.pais', string="Pais")
-    idioma = fields.Many2one('teatro.idioma', string="Idioma")
-    comentarios = fields.One2many('teatro.comentario', 'pelicula', string="Comentarios")
 
 class Salas(models.Model):
     _name = 'teatro.sala'

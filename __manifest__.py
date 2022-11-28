@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-	 'name': "lol",
-    'summary': """league of legends""",
+	 'name': "teatro",
+    'summary': """teatro""",
     'description': """
-        Lol module to record matches score:
+        Teatro module to record matches score:
     """,
     'author': "unknown",
     'website': "http://www.salesuanos.edu",

@@ -1,1 +1,1 @@
-from . import  lolModelo
+from . import  teatroModelo
